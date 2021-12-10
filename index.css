@@ -1,0 +1,15 @@
+.progress-bar {
+  height: 3px;
+  border: 1px solid red;
+  border-radius: 4px;
+  position: relative;
+}
+.progress-bar:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 70%;
+  background: red;
+  content: '';
+}
